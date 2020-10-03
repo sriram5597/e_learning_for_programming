@@ -1,9 +1,12 @@
 # e-Learning Platform for Programming
 
 ## Project Description
-    This platform is for end users who want to begin programming. They can watch videos, read text contents, solve mcq and submit flowchart and code for problem statements provided in the platform. There are two users in this platform.
-    - Instructor -> upload video, create text content, create mcq, create problem statements with testcases
-    - user -> Access all those things
+    This platform is for end users who want to begin programming. They can watch videos, read text contents, 
+    solve mcq and submit flowchart and code for problem statements provided in the platform. 
+    
+    There are two users in this platform.
+        - Instructor -> upload video, create text content, create mcq, create problem statements with testcases
+        - user -> Access all those things
     
 ## Features
     - Video Streaming
