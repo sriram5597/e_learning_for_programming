@@ -1,0 +1,9 @@
+{
+	"video": {
+		"coursevidehlsstream": {
+			"service": "video",
+			"serviceType": "video-on-demand",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

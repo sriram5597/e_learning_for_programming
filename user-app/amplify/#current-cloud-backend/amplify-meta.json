@@ -1,0 +1,33 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-artiklearn-user-app-dev-171351-authRole",
+			"UnauthRoleArn": "arn:aws:iam::502669402237:role/amplify-artiklearn-user-app-dev-171351-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::502669402237:role/amplify-artiklearn-user-app-dev-171351-authRole",
+			"Region": "ap-south-1",
+			"DeploymentBucketName": "amplify-artiklearn-user-app-dev-171351-deployment",
+			"UnauthRoleName": "amplify-artiklearn-user-app-dev-171351-unauthRole",
+			"StackName": "amplify-artiklearn-user-app-dev-171351",
+			"StackId": "arn:aws:cloudformation:ap-south-1:502669402237:stack/amplify-artiklearn-user-app-dev-171351/99f7fef0-da35-11ea-86ca-065f511736be",
+			"AmplifyAppId": "d2tctz9jz9e01z"
+		}
+	},
+	"video": {
+		"coursevidehlsstream": {
+			"service": "video",
+			"serviceType": "video-on-demand",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-artiklearn-user-app-dev-171351-deployment/amplify-cfn-templates/video/coursevidehlsstream-vod-workflow-template.yaml",
+				"logicalId": "videocoursevidehlsstream"
+			},
+			"lastPushTimeStamp": "2020-08-09T12:52:09.460Z",
+			"output": {
+				"oVodOutputUrl": "coursevidehlsstream-dev-output-4t2nnryr.s3.ap-south-1.amazonaws.com",
+				"oVODOutputS3": "coursevidehlsstream-dev-output-4t2nnryr",
+				"oVODInputS3": "coursevidehlsstream-dev-input-4t2nnryr"
+			},
+			"lastPushDirHash": "1TI71BsPAhzgtJlhMPrnhYEO7qM="
+		}
+	}
+}

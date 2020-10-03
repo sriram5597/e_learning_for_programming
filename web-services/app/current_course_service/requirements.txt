@@ -1,0 +1,11 @@
+python-dev-tools
+awscli
+flask
+requests
+dnspython
+flask_cors
+pyjwt
+pycrypto
+boto3
+gunicorn
+Flask-Mail

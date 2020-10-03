@@ -1,0 +1,19 @@
+.align-center {
+    text-align: center;
+  }
+  
+  .align-right {
+    text-align: right;
+  }
+  
+  .align-left {
+    text-align: left;
+  }
+  
+  .align-justify {
+    text-align: justify;
+  }
+
+  .header-one__center {
+    text-align: center;
+  }

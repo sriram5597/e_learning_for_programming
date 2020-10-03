@@ -1,0 +1,22 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-artiklearn-user-app-dev-171351-authRole",
+            "UnauthRoleArn": "arn:aws:iam::502669402237:role/amplify-artiklearn-user-app-dev-171351-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::502669402237:role/amplify-artiklearn-user-app-dev-171351-authRole",
+            "Region": "ap-south-1",
+            "DeploymentBucketName": "amplify-artiklearn-user-app-dev-171351-deployment",
+            "UnauthRoleName": "amplify-artiklearn-user-app-dev-171351-unauthRole",
+            "StackName": "amplify-artiklearn-user-app-dev-171351",
+            "StackId": "arn:aws:cloudformation:ap-south-1:502669402237:stack/amplify-artiklearn-user-app-dev-171351/99f7fef0-da35-11ea-86ca-065f511736be",
+            "AmplifyAppId": "d2tctz9jz9e01z"
+        },
+        "categories": {
+            "video": {
+                "coursevidehlsstream": {
+                    "s3UUID": "4t2nnryr"
+                }
+            }
+        }
+    }
+}

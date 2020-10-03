@@ -1,0 +1,14 @@
+{
+	"video": {
+		"coursevideostreams": {
+			"service": "video",
+			"serviceType": "video-on-demand",
+			"providerPlugin": "awscloudformation"
+		},
+		"coursevidehlsstream": {
+			"service": "video",
+			"serviceType": "video-on-demand",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

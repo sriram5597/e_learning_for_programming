@@ -1,0 +1,31 @@
+{
+  "name": "graphql-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stacle19/graphql-gateway.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stacle19/graphql-gateway/issues"
+  },
+  "homepage": "https://github.com/Stacle19/graphql-gateway#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.15.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "graphql": "^15.1.0",
+    "graphql-tools": "^6.0.11",
+    "lodash": "^4.17.15",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  }
+}

@@ -1,0 +1,54 @@
+.DraftEditor-root {
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    margin: 0;
+    height: 83%;
+    padding:20px;
+    font-size: 18px;
+    font-family: 'calibri', sans-serif;
+    overflow-y: visible;
+  }
+
+.public-DraftEditorPlaceholder-root {
+    color:  #c4c1be; 
+    position: absolute;
+    opacity: 0.75;
+    z-index: 0;
+  }
+  
+.public-DraftEditorPlaceholder-hasFocus {
+    color: #c4c1be; 
+  }
+
+.public-DraftEditor-content {
+    position: relative;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+  
+.DraftEditorPlaceholder-hidden {
+    display: none;
+  }
+
+.DraftEditor-editorContainer {
+    position: relative;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.toolbar {
+    position: relative;
+    width: 80%;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    margin: auto;
+    top: 10px;
+    text-align: center;
+    height: 30px;
+    border: 1px solid;
+    z-index: 4;
+    box-shadow: 1px 0px 1px 1px  rgba(0,0,0,0.5);
+}

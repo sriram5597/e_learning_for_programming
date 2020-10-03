@@ -1,0 +1,21 @@
+version: 0.1
+
+phases:
+    pre_build:
+        commands:
+            - echo Logging into aws ecr...
+            - $(aws ecr get-login --no-include-email --region ap-south-1)
+            - echo Logged into to ecr...
+
+    build:
+        commands:
+            - echo docker build started..
+            - docker build -t course-flow-service .
+        
+    post_build:
+        commands:
+            - echo Build completed...
+            - docker tag course-flow-service:latest 502669402237.dkr.ecr.ap-south-1.amazonaws.com/course-flow-service:v1
+            - echo pushing image to ecr...
+            - docker push 502669402237.dkr.ecr.ap-south-1.amazonaws.com/course-flow-service:v1
+            - echo completed.....

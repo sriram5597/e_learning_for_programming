@@ -1,0 +1,71 @@
+//courses
+export const SET_COURSE = 'SET_COURSE';
+export const SET_COURSES = 'SET_COURSES';
+export const SET_COURSE_STATUS = 'SET_COURSE_STATUS';
+export const SET_CATEGORIES = 'SET_CATEGORIES';
+
+//Auth
+export const SET_USER = 'SET_USER';
+export const SET_AUTH_STATUS = 'SET_AUTH_STATUS';
+export const SET_UNAUTHENTICATED = 'SET_UNAUTHENTICATED';
+export const SET_AUTHENTICATED = 'SET_AUTHENTICATED';
+
+//UI
+export const LOADING_UI = 'LOADING_UI';
+export const SET_ERRORS = 'SET_ERRORS';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+export const FINISH_UI = 'FINISH_UI';
+
+//contents
+export const SET_CONTENT = 'SET_CONTENT';
+export const SET_CONTENT_STATUS = 'SET_CONTENT_STATUS';
+
+//modules
+export const SET_COURSE_MODULES = 'SET_COURSE_MODULES';
+export const SET_MODULE_STATUS  = 'SET_MODULE_STATUS';
+
+//mcq
+export const SET_MCQ = 'SET_MCQ';
+export const SET_SCORES = 'SET_SCORES';
+export const SET_MCQ_STATUS = 'SET_MCQ_STATUS';
+export const CLEAR_SCORES = 'CLEAR_SCORES';
+
+//user details
+export const SET_USER_COURSE = 'SET_USER_COURSE';
+
+//online code
+export const SET_TEST_CASE_RESULT = 'SET_TEST_CASE_RESULT';
+export const SET_SAMPLE_TEST_RESULT = 'SET_SAMPLE_TEST_RESULT';
+export const SET_OUTPUT = 'SET_OUTPUT';
+export const SET_PROBLEM = 'SET_PROBLEM';
+export const SET_SAMPLE_TESTS = 'SET_SAMPLE_TESTS';
+export const SET_CODE = 'SET_CODE';
+export const SET_TESTCASE = 'SET_TESTCASE';
+export const CLEAR_RESULT = 'CLEAR_RESULT';
+export const SET_TEST_SCORE = 'SET_TEST_SCORE';
+export const SET_CODE_STATUS = 'SET_CODE_STATUS';
+
+//video
+export const SET_STREAM_URL = 'SET_STREAM_URL';
+export const SET_STREAM_STATUS = 'SET_STREAM_STATUS';
+
+//course-flow
+export const SET_FLOW = 'SET_FLOW';
+export const SET_FLOW_BY_LEVEL = 'SET_FLOW_BY_LEVEL';
+export const SET_FLOW_STATUS ='SET_FLOW_STATUS';
+
+//flowchart
+export const ADD_FLOW_COMPONENT = 'ADD_FLOW_COMPONENT';
+export const SET_POSITION = 'SET_POSITION';
+export const SET_COMPONENT = 'SET_COMPONENT';
+export const SET_UNSELECT = 'SET_UNSELECT';
+export const SET_SELECTED_COMPONENT = 'SET_SELECTED_COMPONENT';
+export const SET_COMPONENTS = 'SET_COMPONENTS';
+export const SET_FLOWCHART_OUTPUT = 'SET_FLOWCHART_OUTPUT';
+export const SET_FLOWCHART_STATUS = 'SET_FLOWCHART_STATUS';
+export const SET_MOVE_COMPONENT = 'SET_MOVE_COMPONENT';
+export const SET_SELECT = 'SET_SELECT';
+export const SET_CONNECTED_COMPONENTS = 'SET_CONNECTED_COMPONENTS';
+export const SET_CREATED_COMPONENTS = 'SET_CREATED_COMPONENTS';
+export const SET_CONNECT = 'SET_CONNECT';
+export const SET_EXPORT_SRC = 'SET_EXPORT_SRC';

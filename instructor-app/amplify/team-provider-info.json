@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-stacle-instructors-dev-224619-authRole",
+            "UnauthRoleArn": "arn:aws:iam::502669402237:role/amplify-stacle-instructors-dev-224619-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::502669402237:role/amplify-stacle-instructors-dev-224619-authRole",
+            "Region": "ap-south-1",
+            "DeploymentBucketName": "amplify-stacle-instructors-dev-224619-deployment",
+            "UnauthRoleName": "amplify-stacle-instructors-dev-224619-unauthRole",
+            "StackName": "amplify-stacle-instructors-dev-224619",
+            "StackId": "arn:aws:cloudformation:ap-south-1:502669402237:stack/amplify-stacle-instructors-dev-224619/7a47ba80-9086-11ea-a3bf-02e8bcba16c6",
+            "AmplifyAppId": "d33swt2qrrzbjb"
+        }
+    }
+}
